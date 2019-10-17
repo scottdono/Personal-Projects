@@ -41,7 +41,7 @@ def send_mail():
     server.ehlo()
 
     # Login to my Gmail account using a gerated app password. This is possible because I have two-step verification enabled on my account.
-    server.login('scottdonohd@gmail.com', 'ffrwymsthuxhwrce')
+    server.login('scottdonohd@gmail.com', '***********')
 
     # Variables that contain the actual content of the email.
     subject = 'Price Fell Down'
